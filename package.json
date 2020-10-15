@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itdev161/nicholas-tsioutsiopoulos.git"
+    "url": "git+https://github.com/itdev161/nicholas-tsioutsiopoulos-p1.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/itdev161/nicholas-tsioutsiopoulos/issues"
+    "url": "https://github.com/itdev161/nicholas-tsioutsiopoulos-p1/issues"
   },
-  "homepage": "https://github.com/itdev161/nicholas-tsioutsiopoulos#readme"
+  "homepage": "https://github.com/itdev161/nicholas-tsioutsiopoulos-p1#readme"
 }
