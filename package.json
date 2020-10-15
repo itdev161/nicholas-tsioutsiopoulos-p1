@@ -4,6 +4,7 @@
   "description": "Learning to Code",
   "main": "server.js",
   "dependencies": {
+    "axios": "^0.20.0",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.2",
     "cors": "^2.8.5",
