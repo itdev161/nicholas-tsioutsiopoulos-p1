@@ -1,2 +1,1 @@
-# nicholas-tsioutsiopoulos-p1
-Project 1
+Learning to Code
