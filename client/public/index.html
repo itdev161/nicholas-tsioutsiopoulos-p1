@@ -24,7 +24,8 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Project 1 - Kitty Villa</title>
+    <img src="images/logo.png" alt="Nikko's Daycare Logo" width="100%" height="auto" border-radius="128px">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +40,91 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+<nav>
+<ul>
+  <li><a href="index.html">Home</a></li>
+</ul>
+</nav>
+<br>
+<br>
+
+      <div class="photoRow">
+        <div class="photoColumn">
+          <br>
+          <br>
+          <img src="images/1.jpg" alt="Photo 1">
+          <img src="images/a_bowl2.jpg" alt="Catmobile2">
+          <img src="images/3.jpg" alt="Photo 3">
+          <img src="images/4.jpg" alt="Photo 4">
+          <img src="images/2.jpg" alt="Photo 2">
+          <br>
+        </div>
+        <div class="photoColumn">
+          <br>
+          <br>
+          <img src="images/14.jpg" alt="Photo 14">
+          <img src="images/6.jpg" alt="Photo 6">
+          <img src="images/a_storage.jpg" alt="Storage Unit">
+          <img src="images/7.jpg" alt="Photo 7">
+          <img src="images/8.jpg" alt="Photo 8">
+          <br>
+        </div>
+        <div class="photoColumn">
+          <br>
+          <br>
+          <img src="images/9.jpg" alt="Photo 9">
+          <img src="images/10.jpg" alt="Photo 10">
+          <img src="images/11.jpg" alt="Photo 11">
+          <img src="images/12.jpg" alt="Photo 12">
+          <img src="images/17.jpg" alt="Photo 17">
+          <br>
+        </div>
+        <div class="photoColumn">
+          <br>
+          <br>
+          <img src="images/13.jpg" alt="Photo 13">
+          <img src="images/5.jpg" alt="Photo 5">
+          <img src="images/15.jpg" alt="Photo 15">
+          <img src="images/16.jpg" alt="Photo 16">
+          <img src="images/a_climbingwall2.jpg" alt="Rock Wall For Cats 2">
+          <br>
+        </div>
+      </div>
+
+<section id="display-content"></section>
+
+<div class="modal" id="modal-dialog">
+  <section>
+    <h2>Leave us a Message!</h2>
+    <p>Summary (Great Service, Wonderful Hosts etc.)</p>
+    <input type="text" id="edit-title-text" />
+    <span id="edit-content-message"></span>
+  </section>
+  
+  <section>
+    <p>Detailed Message or Comments:</p>
+    <textarea id="edit-content-text" cols="48" rows="8"></textarea>
+    <span id="edit-content-message"></span>
+    
+    
+  </section>
+
+
+      </div>
+      <div class="header-menu">
+        <button id="cancel-button">Cancel</button>
+        <button id="save-button">Save</button>
+        <button id="new-button">New</button>
+      </div>
+      <div id="modal-backdrop"></div>
+      
   </body>
+  <br>
+
+  <footer>
+    
+    <p>Copyright &copy; 2020 <strong>Nikko's Daycare for Privileged Kittens</strong> all rights reserved </p>
+    <br>
+  </footer>
+      <script src="js/scripts.js"></script>
 </html>

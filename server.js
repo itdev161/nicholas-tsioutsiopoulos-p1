@@ -20,7 +20,7 @@ app.use(
  */
 
 app.get('/', (req, res) =>
-    res.send('http get request sent to root api endpoint')
+    res.send('WE SUPPORT SANITIZING PAWS - http sent to root API')
 );
 
 /**

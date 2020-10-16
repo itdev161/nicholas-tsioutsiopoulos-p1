@@ -1,33 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Axios from 'axios';
+import axios from 'axios';
+
 
 class App extends React.Component {
- state = {
-   data: null
- }
+  state = {
+    data: null
+  }
+  
+  componentDidMount() {
+    axios.get('http://localhost:5000')
+    .then((response) => {
+      this.setState({
+        data: response.data
+      })
+    })
+    .catch((error) => {
+      console.error(`Error fetching data: ${error}`);
+    })
+  }
 
- componentDidMount() {
-   Axios.get('http://localhost:5000')
-   .then((response) => {
-     this.setState({
-       data: response.data
-     })
-   })
-   .catch((error) => {
-     console.error('Error fetching data: ${error}');
-   })
- }
- 
   render() {
     return (
-    <div className="App">
-      <header className="App-header">
-          Kitty Condo!
-      </header>
-    </div>
-  );
+      <div className="App">
+        <header className="App-header">
+          ALL CATS ARE REQUIRED TO WEAR FACE MASKS AND OBSERVE SOCIAL DISTANCING RULES
+        </header>
+        {this.state.data}
+        </div>
+        
+
+        
+      
+    );
   }
 }
 
